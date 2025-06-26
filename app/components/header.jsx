@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import HeaderLogo from '../assets/icon/gartalia_header_logo.svg';
-import HeaderName from '../assets/icon/gartalia_name_logo.svg';
-import HeaderTree from '../assets/icon/gartalia_tree_logo.svg';
+import HeaderLogo from '../assets/icon/header_logo.svg';
+import HeaderName from '../assets/icon/name_logo.svg';
+import HeaderTree from '../assets/icon/tree_logo.svg';
 import ImgButton from '../buttons/imgbutton';
 import StandardButton from '../buttons/standardButton';
 import IconServicios from '../assets/img/icon_servicios.svg';
@@ -30,20 +30,20 @@ function Header() {
                 />
                 <ImgButton
                     link="/#mantenimiento"
-                    title="Mantenimiento"
+                    title="Plantas"
                     style="imgButton__white imgb2"
                     icon={IconMantenimiento}
                 />
                 <ImgButton
                     link="/#instalaciones"
-                    title="Instalaciones"
+                    title="Varios"
                     style="imgButton__white imgb3"
                     icon={IconInstalaciones}
                 />
             </div>
 
             <StandardButton
-                link="https://wa.me/message/44EBMJCUV7LNO1"
+                link="https://wa.me/34654286888"
                 title="WhatsApp"
                 style="standardButton"
             />

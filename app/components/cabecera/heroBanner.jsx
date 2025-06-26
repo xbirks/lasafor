@@ -11,15 +11,15 @@ function HeroBanner(){
 
         <div className="hero__master">
             <div className="hero__element hero__1">
-                <p>+20</p>
+                <p>+{new Date().getFullYear() - 2011}</p>
                 <p>años de<br></br>experiencia</p>
             </div>
             <div className="hero__element hero__2">
                 <Image src={certificados} alt="icono de profesionales certificados de Gartalia"></Image>
-                <p>Profesionales<br></br>certificados</p>
+                <p>Profesional<br></br>certificado</p>
             </div>
             <div className="hero__element hero__3">
-                <p>247</p>
+                <p>{201 + Math.floor((new Date() - new Date('2024-06-03')) / (1000 * 60 * 60 * 24 * 7)) * 2}</p>
                 <p>proyectos<br></br>exitosos<br></br>completados</p>
             </div>
             <div className="hero__element hero__4">

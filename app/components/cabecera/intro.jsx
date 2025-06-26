@@ -14,22 +14,22 @@ function Intro({ municipio }) {
       <div className="intro__mejores-servicios" id="presupuesto">
         <StandardButton
           link="/"
-          title="Creación y diseño de jardines"
+          title="Desbroce"
           style="emptyStandardButton"
         />
         <StandardButton
           link="/"
-          title="Mantenimiento de comunidades"
+          title="Cuidado de plantas"
           style="emptyStandardButton"
         />
         <StandardButton
           link="/"
-          title="Montajes de riego por aspersión"
+          title="Vallado"
           style="emptyStandardButton"
         />
         <StandardButton
           link="/"
-          title="Poda y tala en altura"
+          title="Tractor y Rotobato"
           style="emptyStandardButton"
         />
       </div>

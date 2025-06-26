@@ -10,7 +10,7 @@ import HeroBanner from './cabecera/heroBanner';
 import FooterForm from '../contactFormFooter';
 import SeoAnchor from './footer/seoAnchor';
 //IMG
-import HeaderLogoFooter from '../assets/icon/gartalia_header_logo-footer.svg';
+import HeaderLogoFooter from '../assets/icon/header_logo-footer.svg';
 import IconServicios from '../assets/img/icon_servicios-dark.svg'
 import IconInstalaciones from '../assets/img/icon_instalaciones-dark.svg'
 import IconMantenimiento from '../assets/img/icon_mantenimiento-dark.svg'
