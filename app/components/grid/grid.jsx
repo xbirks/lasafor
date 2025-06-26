@@ -13,7 +13,7 @@ function Grid({service, description, img, top, link}){
 
         <div className="grid__master">
             <div className="grid__img">
-                <Image src={img} alt={`fotografía de ${service} hecho por Jardinería Gartalia en Valencia`}  width={733} height={490} loading="lazy"></Image>
+                <Image src={img} alt={`fotografía de ${service} hecho por Jardinería La Safor en Gandía`}  width={733} height={490} loading="lazy"></Image>
                 <div className="top-solicitado" style={{ display: top }}><p>TOP SOLICITADO</p></div>
             </div>
 
@@ -23,7 +23,7 @@ function Grid({service, description, img, top, link}){
             <p className="grid__description">{description}</p>
             <div className="grid__buttons">
                 <StandardButton
-                link="https://wa.me/message/44EBMJCUV7LNO1"
+                link="https://wa.me/34654286888"
                 title="Contactar"
                 style="standardButton">
                 </StandardButton>

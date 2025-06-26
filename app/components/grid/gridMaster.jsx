@@ -5,21 +5,6 @@ import Link from 'next/link';
 import './grid.scss';
 import Grid from './grid';
 
-// IMAGENES
-import podatala from '../../assets/img/poda-tala.jpg';
-import disenojardines from '../../assets/img/diseno-jardines.jpg';
-import paisajismo from '../../assets/img/paisajismo.jpg';
-import desrame from '../../assets/img/desrame.jpg';
-import parcelas from '../../assets/img/parcelas.jpg';
-import tocones from '../../assets/img/tocones.jpg';
-import mantcesped from '../../assets/img/mant-cesped.jpg';
-import mantcomunidades from '../../assets/img/mant-comunidades.jpg';
-import mantareasverdes from '../../assets/img/mant-areasverdes.jpg';
-
-import instalariego from '../../assets/img/instala-riego.jpg';
-import instalaluz from '../../assets/img/instala-luz.jpg';
-import instalacercas from '../../assets/img/instala-cercas.jpg';
-
 
 
 function GridMaster({municipio}){
@@ -33,84 +18,88 @@ function GridMaster({municipio}){
         <div className="gridmaster__elements">
 
         <Grid
-        service={`Poda y tala en altura ${municipio}`}
-        description="Nos especializamos en poda y tala en altura, empleando técnicas seguras para gestionar árboles grandes y en ubicaciones complicadas. Este servicio previene riesgos y promueve la salud y el buen crecimiento de tus árboles."
-        img={podatala}
+        service={`Desbroce de parcelas ${municipio}`}
+        description="Desbroce limpio y seguro que elimina maleza y residuos, previniendo incendios y plagas. Dejamos el terreno listo para cultivos, obras o mantenimiento paisajístico."
+        img="/img/desbroce.jpg"
         top="block"
         link="/poda-tala"
         ></Grid>
 
         <Grid
-        service={`Diseño y construcción de jardines ${municipio}`}
-        description="Ofrecemos servicios personalizados de diseño de jardines que transforman espacios exteriores en verdaderos oasis. Nuestros expertos trabajan contigo para crear diseños únicos, adaptados a tus gustos y las condiciones de tu entorno."
-        img={disenojardines}
+        service={`Labranza con rotobato ${municipio}`}
+        description="Con rotobato de alto rendimiento mejoramos la estructura y oxigenación del suelo, fragmentando terrones y mezclando nutrientes. Base perfecta para césped, huertos o jardines sin compactar la tierra."
+        img="/img/rotobato.jpg"
         top="none"
         link="/"
         ></Grid>
 
         <Grid
-        service={`Paisajismo ${municipio}`}
-        description="Creamos paisajes impresionantes que complementan tu hogar y estilo de vida, utilizando un enfoque integrado que considera tanto la estética como la funcionalidad. Nuestro equipo utiliza su experiencia en horticultura para asegurar que cada elemento del paisaje esté en perfecta armonía."
-        img={paisajismo}
+        service={`Excavaciones con retroexcavadora ${municipio}`}
+        description="Zanjas, cimentaciones y movimientos de tierra ejecutados con exactitud milimétrica. Operadores certificados y cumplimiento estricto de las normas de seguridad laboral."
+        img="/img/excavadora.jpg"
         top="none"
         link="/"
         ></Grid>
 
         <Grid
-        service={`Poda de palmeras ${municipio}`}
-        description="Realizamos poda de palmeras para mejorar su salud y estética, eliminando ramas innecesarias o enfermas de manera segura y eficiente. Este servicio ayuda a prevenir daños futuros y mejora la estructura general del árbol."
-        img={desrame}
+        service={`Poda integral ${municipio}`}
+        description="Saneamos y damos forma a arbustos y árboles de cualquier tamaño, fomentando un crecimiento saludable y eliminando riesgos. Cortes limpios con herramientas homologadas."
+        img="/img/poda.jpg"
+        top="none"
+        link="/"
+        ></Grid>
+
+      
+        <Grid
+        service={`Servicios agrícolas con tractor ${municipio}`}
+        description="Tractores equipados con aperos de desbroce, arado y remolque para trabajos a gran escala. Eficiencia máxima en fincas, polígonos y grandes parcelas."
+        img="/img/tractor.jpg"
         top="none"
         link="/"
         ></Grid>
 
         <Grid
-        service={`Destoconado con máquina ${municipio}`}
-        description="Elimina tocones de forma rápida, segura y sin destrozar tu terreno con nuestra maquinaria especializada. Olvídate de excavaciones y esfuerzos innecesarios: evita rebrotes, plagas y gana espacio para nuevas plantaciones o construcciones."
-        img={tocones}
-        top="block"
-        link="/"
-        ></Grid>
-
-
-
-        <Grid
-        service={`Limpieza de parcelas ${municipio}`}
-        description="Ofrecemos un servicio completo de limpieza de parcelas, eliminando desechos, maleza y cualquier elemento no deseado para preparar el terreno para futuros proyectos o simplemente mantenerlo en óptimas condiciones. Este servicio es esencial para evitar plagas y fomentar un entorno más seguro y estético en tu propiedad."
-        img={parcelas}
+        service={`Limpieza integral de parcelas ${municipio}`}
+        description="Retirada de desechos y maleza para preparar el terreno o mantenerlo en óptimas condiciones, evitando plagas y mejorando la seguridad."
+        img="/img/parcelas.jpg"
         top="none"
         link="/"
         ></Grid>
+        
 
         </div>
+
+
+       
         
 
 
 
-        <h2 id="mantenimiento">Mantenimiento</h2>
+        <h2 id="mantenimiento">Plantas</h2>
 
         <div className="gridmaster__elements">
 
+
         <Grid
-        service={`Mantenimiento de césped ${municipio}`}
-        description="Ofrecemos mantenimiento de césped integral, incluyendo corte regular, aireación y fertilización para garantizar un césped verde y saludable. Este servicio asegura la belleza y durabilidad de tu espacio verde durante todo el año."
-        img={mantcesped}
+        service={`Plantas a medida y ejemplares únicos ${municipio}`}
+        description="Gestionamos pedidos especiales: bonsáis centenarios, árboles ejemplares y colecciones raras, con entrega garantizada y controles fitosanitarios."
+        img="/img/plantas.jpg"
         top="block"
         link="/"
         ></Grid>
 
         <Grid
-        service={`Mantenimiento de comunidades ${municipio}`}
-        description="Proporcionamos servicios de mantenimiento de comunidades, asegurando que las áreas verdes compartidas estén siempre en perfecto estado. Nos encargamos de todo, desde el cuidado del césped hasta la poda de árboles, para mejorar el entorno de todos los residentes."
-        img={mantcomunidades}
-        top="block"
+        service={`Control fitosanitario y de plagas ${municipio}`}
+        description="Diagnóstico y tratamiento certificado contra insectos y enfermedades. Métodos químicos y biológicos según normativa vigente."
+        img="/img/fito.jpg"
+        top="none"
         link="/"
         ></Grid>
 
         <Grid
-        service={`Limpieza de áreas verdes ${municipio}`}
-        description="Realizamos la limpieza de áreas verdes, eliminando residuos y desechos para mantener los espacios exteriores limpios y atractivos. Este servicio es esencial para preservar la belleza y la funcionalidad de parques y jardines."
-        img={mantareasverdes}
+        service={`Setos verdes listos para plantar ${municipio}`}
+        description="Suministramos y colocamos setos en contenedor de crecimiento rápido que crean pantallas naturales de privacidad y protección frente a viento y ruido."
+        img="/img/setos.jpg"
         top="none"
         link="/"
         ></Grid>
@@ -123,26 +112,27 @@ function GridMaster({municipio}){
 
         <div className="gridmaster__elements">
 
-        <Grid
-        service={`Instalación de sistemas de riego por aspersión ${municipio}`}
-        description="Implementamos sistemas de riego por aspersión eficientes que garantizan una distribución uniforme del agua, optimizando el riego y la salud de tus plantas. Este sistema es ideal para mantener tu jardín hidratado sin esfuerzo excesivo."
-        img={instalariego}
-        top="block"
+         <Grid
+        service={`Vallados y soluciones auxiliares ${municipio}`}
+        description="Instalación de cerramientos, redes de riego, iluminación exterior y pequeñas obras de albañilería para un jardín funcional y seguro."
+        img="/img/vallado.jpg"
+        top="none"
         link="/"
         ></Grid>
 
+
         <Grid
-        service={`Instalación de iluminación para jardines ${municipio}`}
-        description="Instalamos iluminación para jardines, realzando la belleza de tu espacio exterior y aumentando la seguridad durante la noche. Nuestros sistemas de iluminación son tanto funcionales como decorativos, diseñados para complementar el paisaje de tu jardín."
-        img={instalaluz}
+        service={`Depósitos esféricos de agua ${municipio}`}
+        description="Suministramos e instalamos aljibes de fibra de vidrio de alta resistencia, ideales para almacenar hasta 30 000 L de agua de lluvia o riego. Incluye excavación, base nivelada, conexiones hidráulicas y motobomba sumergible con doble filtrado."
+        img="/img/deposito.jpg"
         top="none"
         link="/"
         ></Grid>
 
         <Grid
-        service={`Instalación de cercas, cipreses y muros verdes ${municipio}`}
-        description="Ofrecemos instalación de cercas, cipreses y muros verdes para añadir privacidad y belleza a tu jardín. Estos elementos no solo mejoran la estética del espacio, sino que también proporcionan soluciones prácticas para delimitar áreas y mejorar la seguridad."
-        img={instalacercas}
+        service={`Grifos y tomas de agua exteriores ${municipio}`}
+        description="Montamos puntos de servicio en acero inoxidable o latón antical para mangueras, pulverizadores y herramientas de limpieza. Cierre antigoteo y opción de llaves antirrobo."
+        img="/img/grifos.jpg"
         top="none"
         link="/"
         ></Grid>

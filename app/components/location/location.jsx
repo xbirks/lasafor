@@ -12,11 +12,14 @@ function Location(){
         <div className="location__master">
             <h3 className="location__title">¿Dónde necesitas que vayamos?</h3>
             <p className="location__description">
-                En <strong>Gartalia</strong>, cubrimos toda la provincia de Valencia, desde la ciudad hasta los pueblos más pequeños. Atendemos a lugares como <strong>Llíria, Bétera, Paterna, La Pobla de Vallbona, Ribarroja del Turia, Benaguacil, Godella, La Eliana, Casinos, Marines, Olocau y Náquera</strong>. Nos adaptamos a cada área para ofrecer el mejor servicio posible, manteniendo jardines y áreas verdes en condiciones óptimas. Estamos siempre disponibles para ofrecerte soluciones personalizadas, sea donde sea que te encuentres <strong>en Valencia</strong>.
+                En <strong>Jardiería La Safor</strong>, damos servicio a toda la comarca de la Safor y sus alrededores, con una cobertura real y constante que abarca desde las zonas más céntricas hasta los rincones rurales con difícil acceso. Nuestra actividad se concentra en municipios como <strong>Gandía, Oliva, Bellreguard, Daimús, Villalonga, Potries, Miramar, Palma de Gandia, Ròtova y L’Alqueria de la Comtessa</strong>, adaptando cada intervención a las condiciones específicas del entorno: tipo de terreno, climatología y necesidades del cliente.
                 <br></br><br></br>
-                Además, estamos comprometidos con ofrecer <strong>servicios de jardinería accesibles y eficientes</strong>, lo que nos permite responder rápidamente a las necesidades de nuestros clientes en cualquier parte de la provincia. Nuestro equipo se desplaza con todo el equipo necesario para asegurar que cada proyecto se complete a la perfección, independientemente de la ubicación. 
+                Nuestro equipo trabaja con eficiencia, discreción y herramientas profesionales para garantizar un resultado duradero. Nos desplazamos con todos los medios necesarios para resolver tanto las tareas más básicas como los trabajos técnicos. Respondemos de manera ágil, conscientes de que un buen mantenimiento es cuestión de constancia y de estar cuando se necesita.
                 <br></br><br></br>
-                Este enfoque flexible y dedicado nos ha permitido construir relaciones duraderas con nuestros clientes, quienes confían en nosotros para mantener sus espacios verdes saludables y atractivos año tras año.</p>
+                Nuestro compromiso nos ha convertido en una referencia local para clientes exigentes en zonas como <strong>Ador, Palmera, Benirredrà o Guardamar de la Safor</strong>, que confían en nosotros año tras año para mantener sus espacios verdes limpios, seguros y bien cuidados. No prometemos, cumplimos: calidad, proximidad y resultados.
+                </p>
+
+
 
             <div className="location__buttons">
                 <StandardButton
@@ -33,31 +36,39 @@ function Location(){
             </div>
 
             <div className="location__seo-link">
-                <Link href="/">Jardineros en Valencia</Link>
-                <Link href="/municipios/manises">Jardineros en Manises</Link>
-                <Link href="/municipios/eliana">Jardineros en La Eliana</Link>
-                <Link href="/municipios/godella">Jardineros en Godella</Link>
-                <Link href="/municipios/mascamarena">Jardineros en Mas Camarena</Link>
-                <Link href="/municipios/betera">Jardineros en Bétera</Link>
-                <Link href="/municipios/torreconill">Jardineros en Torre en Conill</Link>
-                <Link href="/municipios/benaguasil">Jardineros en Benaguacil</Link>
-                <Link href="/municipios/casinos">Jardineros en Casinos</Link>
-                <Link href="/municipios/turis">Jardineros en Turis</Link>
-                <Link href="/municipios/marines">Jardineros en Marines</Link>
-                <Link href="/municipios/naquera">Jardineros en Náquera</Link>
-                <Link href="/municipios/pobla-de-vallbona">Jardineros en La Pobla de Vallbona</Link>
-                <Link href="/municipios/paterna">Jardineros en Paterna</Link>
-                <Link href="/municipios/canada">Jardineros en La Cañada</Link>
-                <Link href="/municipios/rocafort">Jardineros en Rocafort</Link>
-                <Link href="/municipios/massarojos">Jardineros en Massarrojos</Link>
-                <Link href="/municipios/burjassot">Jardineros en Burjassot</Link>
-                <Link href="/municipios/olocau">Jardineros en Olocau</Link>
-                <Link href="/municipios/liria">Jardineros en Liria</Link>
-                <Link href="/municipios/campoolivar">Jardineros en Campo Olivar</Link>
-                <Link href="/municipios/campoolivar">Jardineros en Campo Olivar</Link>
-                <Link href="/municipios/santabarbara">Jardineros en Santa Bárbara</Link>
-                <Link href="/municipios/calicanto">Jardineros en Calicanto</Link>
-            </div>
+                <Link href="/municipios/gandia">Jardineros en Gandía</Link>
+                <Link href="/municipios/oliva">Jardineros en Oliva</Link>
+                <Link href="/municipios/almoines">Jardineros en Almoines</Link>
+                <Link href="/municipios/benirredra">Jardineros en Benirredrà</Link>
+                <Link href="/municipios/beniarjo">Jardineros en Beniarjó</Link>
+                <Link href="/municipios/benifla">Jardineros en Beniflá</Link>
+                <Link href="/municipios/bellreguard">Jardineros en Bellreguard</Link>
+                <Link href="/municipios/rafelcofer">Jardineros en Rafelcofer</Link>
+                <Link href="/municipios/palma-de-gandia">Jardineros en Palma de Gandia</Link>
+                <Link href="/municipios/palmera">Jardineros en Palmera</Link>
+                <Link href="/municipios/platja-de-gandia">Jardineros en Platja de Gandía</Link>
+                <Link href="/municipios/grau-de-gandia">Jardineros en Grau de Gandía</Link>
+                <Link href="/municipios/potries">Jardineros en Potries</Link>
+                <Link href="/municipios/daimus">Jardineros en Daimús</Link>
+                <Link href="/municipios/guardamar-de-la-safor">Jardineros en Guardamar de la Safor</Link>
+                <Link href="/municipios/alqueria-de-la-comtessa">Jardineros en L’Alqueria de la Comtessa</Link>
+                <Link href="/municipios/font-den-carros">Jardineros en La Font d’En Carròs</Link>
+                <Link href="/municipios/miramar">Jardineros en Miramar</Link>
+                <Link href="/municipios/ador">Jardineros en Ador</Link>
+                <Link href="/municipios/xeresa">Jardineros en Xeresa</Link>
+                <Link href="/municipios/villalonga">Jardineros en Villalonga</Link>
+                <Link href="/municipios/rotova">Jardineros en Ròtova</Link>
+                <Link href="/municipios/alfauir">Jardineros en Alfauir</Link>
+                <Link href="/municipios/piles">Jardineros en Piles</Link>
+                <Link href="/municipios/castellonet">Jardineros en Castellonet de la Conquesta</Link>
+                <Link href="/municipios/llocnou-de-sant-jeroni">Jardineros en Llocnou de Sant Jeroni</Link>
+                <Link href="/municipios/marxuquera">Jardineros en Marxuquera</Link>
+                <Link href="/municipios/barx">Jardineros en Barx</Link>
+                <Link href="/municipios/la-drova">Jardineros en La Drova</Link>
+                <Link href="/municipios/xeraco">Jardineros en Xeraco</Link>
+                <Link href="/municipios/simat-de-la-valldigna">Jardineros en Simat de la Valldigna</Link>
+                </div>
+
 
 
         </div>
