@@ -9,13 +9,16 @@ import Nosotros from "./components/nosotros&review/nosotros";
 import Other from "./components/other/other";
 import FaqMaster from "./components/faq/faqmaster";
 import SeoCards from "./components/seo-cards/seocards";
+
+const municipio = "La Safor";
+  const enmunicipio = "en La Safor";
  
 
 export default function HomePage() {
   return (
     <div className="Gartalia">
       <div className="master">
-        <Intro municipio="Real de Gandía"></Intro>
+        <Intro municipio={municipio}></Intro>
         <GridMaster municipio=""></GridMaster>
         <Empresas></Empresas>
         <Location></Location>
@@ -31,11 +34,11 @@ export default function HomePage() {
         </div>
       </div>
       <div className="faq__banner">
-      <span>¿Más preguntas? <Link href="tel:+34657170847">657 170 847</Link></span>
+      <span>¿Más preguntas? <Link href="tel:+34654286888">654 286 888</Link></span>
       </div>
 
       <div className="master">
-        <SeoCards  municipio="" ></SeoCards>
+        <SeoCards  municipio={enmunicipio} ></SeoCards>
       </div>
     </div>
     

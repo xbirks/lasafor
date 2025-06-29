@@ -15,29 +15,48 @@ function FaqMaster(){
             <p className="faq__comment">Te dejamos aquí una lista con preguntas frecuentes:</p>
             
             <FaqItem
-            titulo="¿Qué servicios de mantenimiento de comunidades ofrecen en Valencia?"
-            explicacion="En Gartalia, nos encargamos de mantener bonitas las áreas verdes de tu comunidad. Ofrecemos todo lo necesario para que los jardines siempre luzcan bien, como cortar el césped, podar las plantas y cuidar las flores. Si vives en Valencia y tu comunidad necesita que alguien se ocupe del jardín, nosotros podemos ayudarte." 
+            titulo="¿Cuál es el precio aproximado del desbroce de parcelas en Gandía o la Safor si mi terreno tiene unos 1 000 m²?"
+            explicacion="El coste empieza en torno a 0,20 €–0,35 €/m², dependiendo de la densidad de la maleza y la accesibilidad. Incluimos retirada de restos y desbroce con hilo de nylon o martillos, según convenga. Pide un presupuesto gratuito y afinamos la cifra al céntimo." 
             ></FaqItem>
 
             <FaqItem
-            titulo="¿Cómo se determinan los precios de los servicios de jardinería?"
-            explicacion="Nuestros precios se basan en el tamaño del área a trabajar, los servicios específicos solicitados y la frecuencia del mantenimiento. Ofrecemos presupuestos personalizados sin compromiso para que nuestros clientes en Valencia puedan entender claramente los costos antes de tomar una decisión." 
+            titulo="¿Puedo combinar desbroce de parcela y limpieza integral en la misma visita para reducir costes y tiempo de espera?"
+            explicacion="Claro. Al llevar una sola cuadrilla con trituradora y camión basculante ahorras un segundo desplazamiento y optimizas la mano de obra. Normalmente el descuento ronda el 10 % sobre la suma de ambos servicios por separado, y la parcela queda lista en un único día, lista para inspección o nueva siembra." 
             ></FaqItem>
 
+            <FaqItem
+            titulo="Para un huerto casero, ¿cada cuánto conviene labrar la tierra con rotobato y qué ventajas tiene?"
+            explicacion="Con hacer una pasada profunda al inicio de la temporada y otra liviana antes de cada siembra suele bastar. El rotobato rompe terrones, airea el suelo y mezcla abonos sin compactarlo, así que las raíces crecen a gusto y el riego cunde más." 
+            ></FaqItem>
             
             <FaqItem
-            titulo="¿Cuáles son los principales riesgos asociados con los servicios de jardinería y cómo los manejan?"
-            explicacion="En la jardinería, algunos riesgos incluyen el uso de herramientas afiladas y el manejo de productos químicos para las plantas. En Gartalia, tomamos estos riesgos muy en serio y siempre usamos equipo de protección como guantes y gafas para mantenernos seguros. Además, entrenamos a todos nuestros trabajadores para que sepan usar las herramientas y los productos de manera segura y efectiva." 
+            titulo="¿Qué época es la mejor para la poda integral de naranjos en la comarca y qué equipo utilizáis?"
+            explicacion="Entre febrero y marzo, justo tras la cosecha y antes del brote primaveral. Usamos tijeras de pértiga certificadas, sierras japonesas y plataformas elevadoras para cortes limpios que evitan hongos y favorecen fruta de calibre homogéneo." 
             ></FaqItem>
 
             <FaqItem
-            titulo="¿Cómo se maneja la poda y tala en altura en zonas residenciales de Valencia?"
-            explicacion="En Gartalia, la poda y tala en altura en zonas residenciales de Valencia se hace con mucho cuidado para asegurarnos de que todo se realice de manera segura y sin causar daños. Utilizamos equipos especiales y técnicas profesionales para controlar cómo y dónde caen las ramas grandes. Siempre nos aseguramos de que la zona esté segura tanto para nuestros trabajadores como para los residentes y sus propiedades. Así, mantenemos tus árboles sanos y tu hogar seguro." 
+            titulo="Después de la limpieza integral de una parcela, ¿os ocupáis del transporte de restos a un punto verde?"
+            explicacion="Claro. Cargamos los residuos, emitimos justificante y los llevamos al ecoparque autorizado. Tú recibes la parcela limpia y la documentación por si la pide el ayuntamiento." 
             ></FaqItem>
 
             <FaqItem
-            titulo="¿Realizan diseño de paisajes en áreas urbanas de Valencia?"
-            explicacion="Sí, en Gartalia realizamos diseño de paisajes en áreas urbanas de Valencia. Nos encargamos de transformar espacios exteriores en lugares hermosos y funcionales, adaptándonos a la falta de espacio que a veces hay en la ciudad. Trabajamos contigo para crear un diseño que se ajuste a tus gustos y necesidades, utilizando plantas y materiales que se adapten bien al entorno urbano. Así, puedes disfrutar de un pequeño oasis en medio de la ciudad." 
+            titulo="¿Cuánto tiempo tarda en cerrar visualmente un seto en contenedor y qué mantenimiento necesita al principio?"
+            explicacion="Con ejemplares de 1,50 m ya formados, en unos 6–8 meses tienes pantalla verde. Solo riego regular, un abonado de liberación lenta y dos despuntes ligeros para que engorde parejo." 
+            ></FaqItem>
+
+            <FaqItem
+            titulo="Dispongo de 5 ha y quiero mecanizar la faena: ¿qué superficie real podéis trabajar con tractor en una sola jornada y qué operaciones cubrís?"
+            explicacion="Con un turno de 8 h podemos desbrozar hasta 3 ha con trituradora de martillos, o bien arar unas 2 ha en profundidad y pasar el rodillo nivelador. Si se combina apero (desbroce + arado superficial) la media ronda 2,5 ha. El servicio incluye desplazamiento, combustible, operador certificado y evacuación de restos si se requiere." 
+            ></FaqItem>
+
+            <FaqItem
+            titulo="Si contrato un depósito esférico enterrado de 20 000 L, ¿la instalación viene completa con motobomba, filtrado y conexiones listas para usar?"
+            explicacion="Sí. El paquete llave en mano cubre excavación y solera compactada, colocación del aljibe de fibra, doble filtrado de entrada, válvula antirretorno, motobomba sumergible con cuadro eléctrico, pruebas de estanqueidad y arranque. Te lo dejamos todo probado; solo tendrás que enchufar la manguera o programador de riego." 
+            ></FaqItem>
+
+            <FaqItem
+            titulo="Tras instalar un sistema de riego exterior, ¿ofrecéis mantenimiento anual para evitar obstrucciones y fugas?"
+            explicacion="Disponemos de plan de revisión preventiva: purgado de líneas, limpieza de filtros, calibración de electroválvulas y sustitución de juntas. Se recomienda una visita al inicio de la temporada y otra antes del invierno para invernar la red. El contrato incluye mano de obra, piezas menores y reporte fotográfico del estado de cada sector." 
             ></FaqItem>
 
 

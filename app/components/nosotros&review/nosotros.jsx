@@ -44,29 +44,33 @@ function nosotros(){
 
             <div className="review__list">
                 <Review
-                title="El Oasis - Villa Resort"
-                review="Trabajar con Carlos ha sido un cambio radical para nuestro negocio. Desde que empezó a encargarse del mantenimiento de nuestros jardines, hemos escalado del puesto 50 en Booking al primero o segundo. Su dedicación, paciencia y saber hacer nos han hecho crecer a los grande. Crack!!! Gracias"
-                time="Escrito el 24/02/2024">
+                title="Vicent Espí"
+                review="Llamé a Iván para poner a punto el jardín del chalet en Daimús: podó las palmeras, plantó un seto de cipreses y ajustó el riego sin cortar ni un cable. El césped quedó mullido y el perímetro de revista. Servicio de diez!!!"
+                time="Escrito el 06/08/2024">
                 </Review>
 
                 <Review
-                title="Toni Medina G."
-                review="Carlos lleva cuidando varios meses de la piscina y el jardin del chalet. Trabajo meticuloso y profesional. Es un placer ver cómo luce impecable durante todo el año. Recomendadisimos Carlos y su equipo para que cuiden de vuestras casas."
-                time="Escrito el 04/11/2023">
+                title="Amparo Oltra G."
+                review="Mi parcela parecía una selva hasta que llegó Iván y los compañeros y desbrozó de arriba abajo. En una mañana la dejaron limpia y sin un matojo suelto. Crack total, mil gracias"
+                time="Escrito el 21/11/2023">
                 </Review>
 
                 <Review
-                title="Miguel Ángel Contreras"
-                review="Carlitos hizo magia con un terreno que estaba casi abandonado. Primero lo limpió todo y luego nos puso unas palmeras preciosas, grama nueva y hasta una valla de cipreses que quedó espectacular. En casa no nos imaginábamos que el terreno pudiera quedar tan increíble. Estamos encantados."
-                time="Escrito el 26/03/2024">
+                title="Ausiàs Navarro"
+                review="Para el aljibe necesitaba una buena excavación y Iván llegó con la retro, midió perfecto y niveló la base sin dejar ni un bulto de tierra. Todo rápido, claro y sin sorpresas en la factura. Buen servicio y rápido"
+                time="Escrito el 04/05/2025">
                 </Review>
             </div>
 
              <p className="review__ask-review">
-             Si te han gustado las historias sobre cómo hemos transformado jardines, <strong>anímate a dejarnos una reseña</strong> contando tu experiencia. Tus palabras ayudan mucho y pueden animar a alguien más a dar el paso para mejorar su jardín. Te dejamos un botón para leer más reseñas y conocer mejor nuestro trabajo. 
+                ¿Te han inspirado estas historias sobre la transformación de jardines? 
+                <strong> Comparte tu propia reseña</strong> y cuéntanos cómo ha sido tu experiencia; tus comentarios nos impulsan y pueden alentar a otras personas a dar el paso.  
+                Dispones de un botón para leer más opiniones y conocer a fondo nuestro trabajo.
+                <br /><br />
+                Y si ya deseas convertir tu espacio en algo extraordinario, encontrarás también un botón para 
+                <strong>contratar nuestro servicio al instante</strong>. Con un solo clic empezarás a disfrutar de un jardín espectacular cuanto antes.
+                </p>
 
-            Y si ya estás listo para transformar tu espacio, también encontrarás un botón para <strong>contratar nuestro servicio ahora mismo</strong>. Todo a un clic de distancia para que puedas empezar a disfrutar de un jardín espectacular cuanto antes.
-             </p>
 
              <div className="review__buttons">
                 <StandardButton
